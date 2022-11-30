@@ -1,0 +1,37 @@
+Type,Variable,Description,Category,AlwaysChecked
+drq,all_docs_for_trial,All documents you intend to use at trail.,Always,TRUE
+drq,all_letters,All communications between you and the debtor,Always,TRUE
+drq,related_to_claims,All documents related to your claims and defenses,Always,
+drq,used_for_ints,All documents used to answer interrogatories,Always,TRUE
+drq,identified_in_ints,All documents identified in interrogatory answers,Always,TRUE
+drq,used_for_admissions,All documents used to answer requests for admissions,Always,TRUE
+drq,identified_in_admissions,All documents identified in admissions,Always,TRUE
+drq,used_for_complaint,All documents used when drafting the complaint,Always,TRUE
+drq,contracts,All contracts and sets of terms and conditions,Underlying Debt,
+drq,contract_delivery,All documents related to delivery of contracts and sets of terms and conditions,Underlying Debt,
+drq,contract_updates_delivery,All documents related to delivery of any updates to contracts and sets of terms and conditions,Underlying Debt,
+drq,debt_calculations,All documents showing how much the client owes and how it was calculated.,Underlying Debt,
+drq,docs_concerning_client,All documents concerning client,Client,
+drq,docs_concerning_debt,All documents concerning the debt,Underlying Debt,
+drq,client_signed,All documents with client's signature,Client,
+drq,assignment_documents,All documents related to assignment of the debt,Assignment,
+drq,ownership_documents,All documents showing you are the owner of the debt,Assignment,
+drq,forward_flow,The forward flow agreement,Assignment,
+drq,purchase_and_sale,The purchase and sale agreement,Assignment,
+drq,documents_created_by_you,All documents created by you in relation to the alleged debt.,Underlying Debt,
+drq,concerning_specific_document,All documents concerning a specific document we already have,Regarding Documents,
+drq,concerning_account_number,All documents concerning a particular account,Underlying Debt,
+drq,copy_of_specific_document,A copy of a specific document mentioned in another documents,Regarding Documents,
+drq,all_manuals,All compliance materials and employee training manuals,Collection Efforts,
+drq,collection_efforts,All documents concerning your efforts to collect the debt.,Collection Efforts,
+drq,phone_contacts,All documents concerning phone contacts you made related to the debt,Collection Efforts,
+drq,insurance,All insurance policies,Damages,
+drq,expert_documents,All documents related to any experts,Always,TRUE
+int,identify_answerers,Identify the people answering the interrogatories,Always,TRUE
+int,identify_possible_witnesses,"Identify anyone with knowledge of claims, defenses, counterclaims or who could be a witness",Always,TRUE
+int,identify_facts,Identify facts underlying each claim,Always,TRUE
+int,identify_expert_witnesses,Identify anyone who might be an expert witness,Always,TRUE
+int,securitization,Identify entities involved in the securitization of the account,Assignment,
+int,identify_owners,Identify anyone who has an ownership interest in the account,Assignment,
+int,identify_callers,Identify anyone who made phone contact with debtor,Collection Efforts,
+int,identify_knowledge_specific_doc,identify everyone with knowledge of a specific doc,Concerning Documents,
